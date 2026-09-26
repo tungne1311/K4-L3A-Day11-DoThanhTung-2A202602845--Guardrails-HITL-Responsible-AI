@@ -1,5 +1,8 @@
 # Day 11 — Controlled Agent Security (2026)
 
+> 🧑‍🎓 **Học viên:** Đỗ Thanh Tùng · **MSSV:** 2A202602845  
+> ▶️ **Cách chạy:** `python src/main.py --part 3` (Blue → `outputs/results.json`) · `python src/main.py --part 4` (Red + Red Advance → `outputs/attack_results.json`) · `python scripts/grade.py --submission-dir . --out outputs/grade_report.json` (tự kiểm)
+
 > 👤 **Hình thức:** bài tập **cá nhân** (1 người / 1 MSSV).  
 > 🎯 **Mục tiêu:** xây **Blue** (phòng thủ), rồi red-team **Red** + **Red Advance**.  
 > ✅ Làm theo **Checkpoint 1 → 5** trong [`CHECKPOINTS.md`](CHECKPOINTS.md) · nộp theo [`SUBMISSION.md`](SUBMISSION.md).

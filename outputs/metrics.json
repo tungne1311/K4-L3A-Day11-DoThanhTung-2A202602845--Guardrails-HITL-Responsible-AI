@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-09-26T08:20:12.650776+00:00",
+  "thresholds": {
+    "block_rate": 0.5,
+    "rate_limit_hits": 5,
+    "judge_fail_rate": 0.3,
+    "secret_redactions": 1
+  },
+  "total_requests": 39,
+  "blocked_requests": 20,
+  "block_rate": 0.5128205128205128,
+  "rate_limit_hits": 5,
+  "input_blocks": 15,
+  "output_redactions": 0,
+  "secret_redactions": 0,
+  "llm_errors": 0,
+  "judge_checks": 0,
+  "judge_fails": 0,
+  "judge_fail_rate": 0.0,
+  "alerts": [
+    {
+      "metric": "block_rate",
+      "value": 0.513,
+      "threshold": 0.5,
+      "message": "Tỉ lệ chặn cao — có thể đang có đợt tấn công (hoặc filter chặn nhầm)."
+    },
+    {
+      "metric": "rate_limit_hits",
+      "value": 5,
+      "threshold": 5,
+      "message": "Nhiều request bị rate limit — có thể đang bị spam / flooding."
+    }
+  ]
+}
